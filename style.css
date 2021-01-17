@@ -1,0 +1,203 @@
+@charset "UTF-8";
+*{
+  margin:0;
+  padding:0;
+  }
+/* ヘッダー */
+body {
+  font-family: Georgia,'游明朝',YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+  margin: 0 auto;
+  max-width:1000px;
+}
+header {
+  width: 1000px;
+  height: 100px;
+}
+.header-contents {
+  padding:20px 0;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 200);
+}
+.header-left {
+  font-size: 35px;
+  height:80px;
+  padding-left:20px;
+  font-style: italic;
+  font-weight: bold;
+
+}
+.header-left h1 {
+  font-size: 35px;
+  padding-left: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+
+}
+.contact-btn {
+  width: 100px;
+  height: 30px;
+  font-size:14px;
+  margin-right: 40px;
+  border: 1px solid #4a4a4a;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow:0 3px 6px rgb(0,0,0,7);
+  display:block;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 10px 0 7px 0;
+}
+.header-right a:hover {
+  opacity:0.7;
+  color: black;
+}
+.top-contents {
+  width: 1000px;
+  height: 400px;
+  border: 0px;
+  display: block;
+}
+.top-image img{
+  width: 1000px;
+  position: relative;
+}
+.main-text {
+  position: absolute;
+  text-align: center;
+  top: 33%;
+  left: 33%;
+}
+.top-text {
+  background-color: #4a4a4a;
+  width: 1000px;
+  height: 80px;
+  z-index: 10;
+}
+.top-text p {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 10px;
+  margin-top: 0px;
+  padding-top:0px;
+}
+.maru-contents {
+  height: 240px;
+  width: 1000px;
+  display: block;
+  padding-top:70px;
+  background-color: rgb(255, 255, 200);
+}
+.marus {
+  display: flex;
+}
+.maru {
+  width: 200px;
+  height: 200px;
+  border: solid 1px #4a4a4a;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 70px;
+}
+.maru h2 {
+  position: absolute;
+  top:35%;
+  left: 25%;
+  font-size:20px;
+  text-align: center;
+}
+#maru2,#maru3 {
+  margin: 0 50px;
+}
+#maru2 h2 {
+  left:22%;
+}
+#maru3 h2 {
+  top:40%;
+  left:40%;
+}
+/* レッスン */
+.lesson-contents {
+  width: 1000px;
+}
+.lesson-contents img {
+  height: 250px;
+  width: 50%;
+  object-fit: center;
+}
+.lesson {
+  display: flex;
+}
+.lesson1-content,.lesson2-content,.lesson3-content {
+  background-color:#4a4a4a
+}
+.lesson1-content,.lesson2-content,.lesson3-content p{
+  color: white;
+  font-size:18px;
+  letter-spacing: 5px;
+}
+.lesson1-content span, .lesson2-content span {
+  font-size: 30px;
+}
+.lesson3-content span {
+  font-size: 30px;
+}
+.contact-wrapper {
+  width: 1000px;
+  height: 210px;
+  background-color: rgb(255,255,200);
+  position: relative;
+}
+.contact-form {
+  width: 800px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 100px 70px 100px;
+  margin-left: 100px;
+  position: absolute;
+  top: 55px;
+}
+.contact-left {
+  font-size: 14px;
+  color: white;
+  margin-right: 120px;
+  line-height: 1.5;
+}
+#contact-btn2 {
+  width: 200px;
+  height: 30px;
+  font-size:15px;
+  border: 1px solid #4a4a4a;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow:0 3px 6px rgb(0,0,0,7);
+  display:block;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 10px 0 5px 0;
+}
+.contact-right a:hover {
+    opacity:0.7;
+    
+}
+footer {
+  width: 1000px;
+  height: 70px;
+  background-color: #4a4a4a;
+  line-height: 0;
+}
+footer p {
+  font-size: 10px;
+  padding:35px 100px;
+  margin: 0px;
+  color: white;
+  line-height: 0;
+}
